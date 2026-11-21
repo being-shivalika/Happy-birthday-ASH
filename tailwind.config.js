@@ -7,53 +7,49 @@ export default {
   theme: {
     extend: {
       colors: {
-        midnight: {
-          DEFAULT: '#090910',
-          pure: '#06050A',
-          surface: '#120F1D',
-          card: '#181426',
-          border: 'rgba(196, 176, 232, 0.12)',
+        onyx: {
+          DEFAULT: '#0A0A0A',
+          pure: '#000000',
+          soft: '#121212',
+          card: '#181818',
         },
-        violetDark: {
-          DEFAULT: '#21103D',
-          surface: '#29154C',
-          light: '#351C60',
+        charcoal: {
+          DEFAULT: '#1E1E1E',
+          light: '#2B2B2B',
+          dark: '#141414',
         },
-        mutedPurple: {
-          DEFAULT: '#7655A6',
-          light: '#8F6EBF',
-          dark: '#5E4187',
+        graphite: {
+          DEFAULT: '#404040',
+          light: '#525252',
+          muted: '#737373',
         },
-        lavender: {
-          DEFAULT: '#C4B0E8',
-          light: '#DBCDF2',
-          subtle: '#EDE5F8',
+        silver: {
+          DEFAULT: '#D4D4D4',
+          light: '#E5E5E5',
+          subtle: '#F5F5F5',
         },
-        softPink: {
-          DEFAULT: '#E9A9CC',
-          light: '#F2C2DC',
-          subtle: '#F9DFED',
-        },
-        warmCream: {
-          DEFAULT: '#F7F1E9',
-          muted: '#D8D1C7',
-          dark: '#B0A9A0',
-        },
-        stoneMuted: {
-          DEFAULT: '#948C9E',
-          light: '#B2AAB9',
-          dark: '#686072',
+        alabaster: {
+          DEFAULT: '#FAFAFA',
+          soft: '#F4F4F2',
+          pure: '#FFFFFF',
         },
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
-        handwriting: ['Caveat', 'cursive'],
+        roman: ['Cinzel', 'Trajan Pro', 'Georgia', 'serif'],
+        serif: ['"Cormorant Garamond"', 'Italiana', 'Georgia', 'serif'],
+        italiana: ['Italiana', 'serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+      },
+      letterSpacing: {
+        'super-wide': '0.3em',
+        'ultra-wide': '0.45em',
+        'royal': '0.22em',
       },
       boxShadow: {
-        'subtle-purple': '0 10px 30px -10px rgba(118, 85, 166, 0.25)',
-        'dark-card': '0 8px 30px -8px rgba(0, 0, 0, 0.6)',
-        'polaroid-dark': '0 12px 35px -10px rgba(0, 0, 0, 0.75), 0 2px 8px rgba(0, 0, 0, 0.4)',
+        'luxury': '0 20px 50px -10px rgba(0, 0, 0, 0.08)',
+        'luxury-dark': '0 25px 60px -12px rgba(0, 0, 0, 0.35)',
+        'elevation': '0 30px 70px -15px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.1)',
+        'comp': '0 15px 35px -5px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.03)',
       },
     },
   },
